@@ -5,7 +5,7 @@ export const Application = () => {
       <h2>Section One</h2>
       <div>
         <label htmlFor="name">Name</label>
-        <input type="text"  id="name" />
+        <input type="text"  id="name" placeholder="Full Name" />
       </div>
 
       <div>
