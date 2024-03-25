@@ -6,7 +6,7 @@ export const Application = () => {
       <p>All fields are required</p> 
       <div>
         <label htmlFor="name">Name</label>
-        <input type="text"  id="name" placeholder="Full Name" value="Kaer" />
+        <input type="text"  id="name" placeholder="Full Name" value="Kaer" onChange={() => {}} />
       </div>
 
       <div>
