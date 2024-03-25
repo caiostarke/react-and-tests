@@ -20,7 +20,9 @@ describe('Application', () => {
         })
         expect(textElement).toBeInTheDocument();
 
-        const textElement2 = screen.getByLabelText('Name')
+        const textElement2 = screen.getByLabelText('Name',{
+            selector: 'input'
+        })
         expect(textElement2).toBeInTheDocument();
 
         const bioElement = screen.getByRole('textbox', {
