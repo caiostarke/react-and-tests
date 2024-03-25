@@ -15,7 +15,7 @@ export const Application = () => {
       
       <div>
           <label htmlFor="job-location">Job Location</label>
-          <select id="job-location">
+          <select id="job-location" >
             <option value="">Select A Country</option>
             <option value="US">United State</option>
             <option value="GB">United Kingdom</option>
